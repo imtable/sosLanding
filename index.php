@@ -148,30 +148,10 @@ serialize($newCache)); file_put_contents($outputFile, $newCache['compiled']); }
                            <img src="assets/img/sec-whatis_screen-3.png" alt="screen-3" />
                         </div>
                      </div>
-                     <!-- Add Arrows -->
                      <div class="swiper-button-next"></div>
                      <div class="swiper-button-prev"></div>
-                     <!-- Add Pagination -->
                      <div class="swiper-pagination"></div>
                   </div>
-                  <!-- Swiper JS -->
-                  <script src="assets/js/swiper-bundle.min.js"></script>
-                  <!-- Initialize Swiper -->
-                  <script>
-                  var swiper = new Swiper(".swiper-container", {
-                     cssMode: true,
-                     navigation: {
-                        nextEl: ".swiper-button-next",
-                        prevEl: ".swiper-button-prev",
-                     },
-                     pagination: {
-                        el: ".swiper-pagination",
-                     },
-                     mousewheel: true,
-                     keyboard: true,
-                     loop: true,
-                  });
-                  </script>
                </div>
             </div>
          </div>
@@ -372,10 +352,7 @@ serialize($newCache)); file_put_contents($outputFile, $newCache['compiled']); }
          </div>
       </footer>
    </div>
-   <script src="./assets/js/cssParser.js"></script>
    <script src="./assets/js/jquery-1.11.1.min.js"></script>
-   <script src="./assets/js/jquery.validate.min.js"></script>
-   <script src="./assets/js/script.js"></script>
    <script>
    $(".lang-switcher .lang").on("click", function() {
       $(".lang-sub").toggleClass("active");
@@ -386,6 +363,22 @@ serialize($newCache)); file_put_contents($outputFile, $newCache['compiled']); }
       $(".lang-switcher .lang").html(newLang);
       $(this).html(oldLang);
       $(".lang-sub").toggleClass("active");
+   });
+   </script>
+   <script src="assets/js/swiper-bundle.min.js"></script>
+   <script>
+   var swiper = new Swiper(".swiper-container", {
+      cssMode: true,
+      navigation: {
+         nextEl: ".swiper-button-next",
+         prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+         el: ".swiper-pagination",
+      },
+      mousewheel: true,
+      keyboard: true,
+      loop: true,
    });
    </script>
 </body>
