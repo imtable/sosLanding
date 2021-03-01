@@ -161,7 +161,7 @@ a:4:{s:4:"root";s:24:"./assets/less/style.less";s:8:"compiled";s:87929:"@import 
   margin-left: 20px;
 }
 .sec-start .header .header_wrapper .login-menu a+a {
-  margin-left: 10px;
+  margin-left: 15px;
 }
 .sec-start .header .header_wrapper .login-menu a:hover path {
   fill: white;
@@ -2689,7 +2689,7 @@ input:focus:-ms-input-placeholder {
     margin-left: 20px;
   }
   .sec-start .header .header_wrapper .login-menu a+a {
-    margin-left: 10px;
+    margin-left: 15px;
   }
   .sec-start .header .header_wrapper .login-menu a:hover path {
     fill: white;
@@ -3164,4 +3164,4 @@ body {
   font-family: "Open Sans", sans-serif;
   color: white;
 }
-";s:5:"files";a:6:{s:59:"/Applications/MAMP/htdocs/sosLanding/assets/less/style.less";i:1614624335;s:60:"/Applications/MAMP/htdocs/sosLanding/assets/less/blocks.less";i:1614631593;s:64:"/Applications/MAMP/htdocs/sosLanding/assets/less/animations.less";i:1607176990;s:60:"/Applications/MAMP/htdocs/sosLanding/assets/less/modals.less";i:1608634744;s:59:"/Applications/MAMP/htdocs/sosLanding/assets/less/fonts.less";i:1611336168;s:61:"/Applications/MAMP/htdocs/sosLanding/assets/less/screens.less";i:1614633245;}s:7:"updated";i:1614633247;}
+";s:5:"files";a:6:{s:59:"/Applications/MAMP/htdocs/sosLanding/assets/less/style.less";i:1614624335;s:60:"/Applications/MAMP/htdocs/sosLanding/assets/less/blocks.less";i:1614633885;s:64:"/Applications/MAMP/htdocs/sosLanding/assets/less/animations.less";i:1607176990;s:60:"/Applications/MAMP/htdocs/sosLanding/assets/less/modals.less";i:1608634744;s:59:"/Applications/MAMP/htdocs/sosLanding/assets/less/fonts.less";i:1611336168;s:61:"/Applications/MAMP/htdocs/sosLanding/assets/less/screens.less";i:1614633862;}s:7:"updated";i:1614633886;}

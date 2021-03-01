@@ -161,7 +161,7 @@
   margin-left: 20px;
 }
 .sec-start .header .header_wrapper .login-menu a+a {
-  margin-left: 10px;
+  margin-left: 15px;
 }
 .sec-start .header .header_wrapper .login-menu a:hover path {
   fill: white;
@@ -2689,7 +2689,7 @@ input:focus:-ms-input-placeholder {
     margin-left: 20px;
   }
   .sec-start .header .header_wrapper .login-menu a+a {
-    margin-left: 10px;
+    margin-left: 15px;
   }
   .sec-start .header .header_wrapper .login-menu a:hover path {
     fill: white;
