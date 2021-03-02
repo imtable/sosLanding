@@ -309,8 +309,7 @@
 .sec-features .sec-features_wrapper .sec-features_rightside {
   height: 100vh;
   width: 35%;
-  padding-top: calc(100vh / 4);
-  padding-bottom: calc(100vh / 4);
+  padding: 5rem 0;
 }
 .sec-features .sec-features_wrapper .sec-features_rightside .features-tabs {
   margin-top: 55px;
@@ -524,6 +523,7 @@
 }
 .sec-subs {
   background-color: #080a0b;
+  height: auto;
 }
 .sec-subs .sec-subs_wrapper {
   display: flex;
